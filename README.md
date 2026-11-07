@@ -22,6 +22,28 @@ This project—my Final Year Project (FYP) for the Bachelor of Applied Science i
 - **Bias-Variance Trade-off:** Trained the model across 20, 30, 40, and 50 epochs with varying dropout rates. Found that a **0.5 dropout rate** with 30 epochs provided the best balance, preventing the model from memorizing the training data.
 - **Time Series Cross-Validation (TSCV):** Unlike standard K-Fold, TSCV respects the chronological order of data. I used a 5-fold expanding window to validate the model's stability over time.
 
+## 📈 Visual Highlights
+
+### 1. Historical Price & Volatility (EDA)
+![Historical Price](images/01_historical_price.png)
+*5 years of GTB stock performance — capturing the COVID-19 crash, the 2021 chip boom, and the 2024 correction.*
+
+### 2. Time Series Cross-Validation (Expanding Window)
+![TSCV](images/02_tscv_window.png)
+*5-fold expanding window validation to prevent data leakage and test model stability across different time periods.*
+
+### 3. Bias-Variance Trade-off (Training vs Validation Loss)
+![Training vs Validation Loss](images/03_training_validation_loss.png)
+*Evaluating dropout rates (0.5) across 20–50 epochs to find the optimal balance and prevent overfitting.*
+
+### 4. LSTM Forecast vs Actual (0.5 Dropout)
+![LSTM Forecast](images/04_lstm_forecast.png)
+*Final model performance: predicted prices (red) closely track actual validation prices (green), achieving a MAPE of 3.16%.*
+
+### 5. Cross-Validation Evaluation Metrics
+![CV Metrics](images/05_cv_metrics.png)
+*Consistent low error across all 5 folds — confirming the model generalizes well and is not overfitted.*
+
 ##  Results & Evaluation
 The final model achieved exceptional accuracy on unseen test data (the last 20% of the timeline):
 - **MAPE (Mean Absolute Percentage Error):** 3.16% *(Anything under 10% is considered "Highly Accurate Forecasting" based on Lewis, 1982).*
