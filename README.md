@@ -38,10 +38,12 @@ This project—my Final Year Project (FYP) for the Bachelor of Applied Science i
 
 ### 4. LSTM Forecast vs Actual (0.5 Dropout)
 ![LSTM Forecast](images/04_lstm_forecast.png)
-*Final model performance: predicted prices (red) closely track actual validation prices (green), achieving a MAPE of 3.16%.*
+
+*Final model performance: predicted prices (red) closely track actual validation prices (green), achieving a MAPE of 3.80%.*
 
 ### 5. Cross-Validation Evaluation Metrics
 ![CV Metrics](images/05_cv_metrics.png)
+
 *Consistent low error across all 5 folds — confirming the model generalizes well and is not overfitted.*
 
 ##  Results & Evaluation
