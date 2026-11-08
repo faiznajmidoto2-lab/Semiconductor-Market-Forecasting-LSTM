@@ -1,5 +1,11 @@
 # Semiconductor Market Forecasting using LSTM (Final Year Project)
 
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?logo=scikitlearn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+
 ## 📌 Project Background
 The semiconductor industry is highly volatile, driven by rapid technological changes and global supply chain shifts. Traditional statistical models (like ARIMA) often struggle to capture the non-linear, complex patterns in this market. 
 
